@@ -1,7 +1,7 @@
-# Multiple Linear Regression Project
+# Multiple Linear Regression using Machine Learning
 
 ## Objective
-This project demonstrates Multiple Linear Regression using Machine Learning. The model predicts output values using multiple independent variables.
+The objective of this project is to predict dependent values using Multiple Linear Regression based on multiple independent variables.
 
 ## Technologies Used
 - Python
@@ -10,42 +10,40 @@ This project demonstrates Multiple Linear Regression using Machine Learning. The
 - Matplotlib
 - Scikit-learn
 
-## Dataset
-The dataset contains multiple independent variables and one dependent variable used for prediction.
+## Dataset Information
+The dataset used in this project contains multiple input features and one target variable for prediction.
 
-## Features
-- Data preprocessing
-- Handling categorical data
-- Train-test split
-- Multiple Linear Regression model training
-- Prediction of output values
-- Model evaluation
+## Project Steps
+- Import Required Libraries
+- Load Dataset
+- Separate Features and Target Variable
+- Handle Categorical Data using One-Hot Encoding
+- Split Dataset into Training and Testing Sets
+- Train Multiple Linear Regression Model
+- Predict Test Results
+- Compare Actual and Predicted Values
 
-## Project Workflow
-1. Import Libraries
-2. Load Dataset
-3. Separate Features and Target Variable
-4. Handle Categorical Data
-5. Split Dataset into Training and Testing Sets
-6. Train Multiple Linear Regression Model
-7. Predict Results
-8. Evaluate Model Performance
+## Model Used
+- Multiple Linear Regression
 
-## How to Run
-1. Install required libraries:
-```bash
-pip install -r requirements.txt
-```
-
-2. Open the notebook file.
-
-3. Run all cells sequentially.
+## How to Run the Project
+1. Install required libraries
+2. Open the Jupyter Notebook
+3. Run all notebook cells sequentially
 
 ## Output
-The model predicts target values using multiple input features and evaluates model performance using regression metrics.
+The model predicts target values using multiple input features and displays prediction results.
 
-## Libraries Required
-- pandas
-- numpy
-- matplotlib
-- scikit-learn
+## Files Included
+- Multiple Linear Regression.ipynb
+- 50_Startups.csv
+- README.md
+- requirements.txt
+
+## Required Libraries
+```txt
+pandas
+numpy
+matplotlib
+scikit-learn
+```
